@@ -5,19 +5,20 @@
 }
 
 :root {
-    --primary-color: ;
-    --secondary-color: ;
+    --primary-color: #8B008B;
+    --secondary-color: #FAEBD7;
     --tertiary-color: ;
 }
 
 body {
     color: var();
-    font-family: ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* Navigation */
 header {
-    padding: px px;
-    background-color: var();
+    padding: 20px 35px;
+    background-color: var(--primary-color);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -25,7 +26,43 @@ header {
     position: sticky;
     top: 0; */
     z-index: 99;
+}
 
+header h1 {
+    font-weight: lighter;
+    font-size: 50px;
+    color: var(--secondary-color);
+    letter-spacing: 7px;
+    margin: 0;
+    text-shadow: 0 0 15px var(--secondary-color);
+}
+
+header a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+header nav {
+    margin-top: auto;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-size: 1.75vw;
+    letter-spacing: 3px;
+    text-shadow: 0 0 15px var(--secondary-color);
+}
+
+section {
+    padding: 75px;
 }
 
 /* Hero */
@@ -33,7 +70,7 @@ header {
     height: 300px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/<img file here>");
+    background-image: url("../images/hero.jpg");
     background-size: cover;
     /* background-position: 80%;
     background-attachment: fixed; */
