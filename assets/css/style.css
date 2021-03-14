@@ -4,13 +4,71 @@
     margin: 0;
 }
 
+:root {
+    --primary-color: ;
+    --secondary-color: ;
+    --tertiary-color: ;
+}
+
+body {
+    color: var();
+    font-family: ;
+}
+
+header {
+    padding: px px;
+    background-color: var();
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* position: -webkit-sticky;
+    position: sticky;
+    top: 0; */
+    z-index: 99;
+
+}
+
 /* Hero */
 .hero {
     height: 300px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: ;
+    background-image: url("../images/<img file here>");
     background-size: cover;
-    background-position: center;
+    /* background-position: 80%;
+    background-attachment: fixed; */
 }
-/* end Hero */
+/* end Hero styles */
+
+/* section styles */
+.section-title {
+
+}
+
+.section-border {
+
+}
+/* end section styles */
+
+/* About Me"" section */
+.about-me {
+
+}
+/* end "About Me" styles */
+
+/* "My Work" section */
+.my-work {
+
+}
+/* end "My Work" styles */
+
+/* "Contact Me" section */
+.contact-me {
+
+}
+/* end "Contact Me" styles */
+
+/* Utility Classes */
+.flex-row {
+    display: flex;
+}
