@@ -7,7 +7,7 @@
 :root {
     --primary-color: #8B008B;
     --secondary-color: #FAEBD7;
-    --tertiary-color: ;
+    --tertiary-color: #9b8bfa;
 }
 
 body {
@@ -60,9 +60,10 @@ header nav ul li a {
     letter-spacing: 3px;
     text-shadow: 0 0 15px var(--secondary-color);
 }
+/* end Navigation styles */
 
 section {
-    padding: 75px;
+    padding: 60px;
 }
 
 /* Hero */
@@ -79,18 +80,51 @@ section {
 
 /* section styles */
 .section-title {
-
+    font-size: 45px;
+    color: var(--primary-color);
+    letter-spacing: 3px;
+    border-right: 5px solid var(--tertiary-color);
+    padding-right: 25px
 }
 
-.section-border {
-
-}
 /* end section styles */
 
 /* About Me"" section */
 .about-me {
-
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
+
+.about-me-info {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.about-me-img {
+    flex: 1 20%;
+    margin: auto 50px;
+}
+
+.about-me-text {
+    flex: 12;
+}
+
+.about-me-text p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.about-me-text h4 {
+    font-size: 26px;
+    line-height: 1.5;
+}
+
 /* end "About Me" styles */
 
 /* "My Work" section */
