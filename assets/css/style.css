@@ -143,6 +143,28 @@ section {
 .my-work {
 
 }
+
+.run-buddy {
+    background-image: ./assets/images/#;
+}
+
+.placeholder-1 {
+    background-image: ./assets/images/#;
+}
+
+.placeholder-2 {
+    background-image: ./assets/images/#;
+}
+
+.placeholder-3 {
+    background-image: ./assets/images/#;
+}
+
+.placeholder-4 {
+    background-image: ./assets/images/#;
+}
+
+
 /* end "My Work" styles */
 
 /* "Contact Me" section */
@@ -160,9 +182,11 @@ section {
 
 .contact-info ul li {
     margin: auto 50px;
+}
+/*edit font style here */
+.contact-info ul li a {
 
 }
-
 /* end "Contact Me" styles */
 
 /* Utility Classes */
