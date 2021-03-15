@@ -8,10 +8,11 @@
     --primary-color: #8B008B;
     --secondary-color: #FAEBD7;
     --tertiary-color: #9b8bfa;
+    --dark: rgb(27, 16, 25);
 }
 
 body {
-    color: var();
+    color: var(--dark);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -78,7 +79,18 @@ section {
 }
 /* end Hero styles */
 
+.content {
+    margin: auto;
+    max-width: 75%;
+}
+
 /* section styles */
+.section {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 15px auto;
+}
+
 .section-title {
     font-size: 45px;
     color: var(--primary-color);
@@ -115,16 +127,16 @@ section {
     flex: 12;
 }
 
-.about-me-text p {
-    font-size: 20px;
-    line-height: 1.5;
-}
-
 .about-me-text h4 {
-    font-size: 26px;
+    font-size: 25px;
     line-height: 1.5;
+    letter-spacing: 1.3px;
 }
 
+.about-me-text p {
+    font-size: 18px;
+    line-height: 1.5;
+}
 /* end "About Me" styles */
 
 /* "My Work" section */
@@ -137,6 +149,20 @@ section {
 .contact-me {
 
 }
+
+.contact-info ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.contact-info ul li {
+    margin: auto 50px;
+
+}
+
 /* end "Contact Me" styles */
 
 /* Utility Classes */
