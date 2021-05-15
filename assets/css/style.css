@@ -65,7 +65,7 @@ header nav ul li a {
     height: 300px;
     width: 100%;
     margin-bottom: 45px;
-    background-image: url("../images/hero.jpg");
+    background-image: url("../images/keyboard.jpg");
     background-size: cover;
     /* background-position: 80%;
     background-attachment: fixed; */
@@ -143,8 +143,10 @@ section {
 
 .flex-item {
     display: flex;
-    width: 45%;
-    margin-bottom: 10px;
+    width: 47.5%;
+    margin-bottom: 2.5%;
+    margin-left: 1.25%;
+    margin-right: 1.25%;
     background-size: cover;
     background-position: center;
     padding: 15px 0;
@@ -153,24 +155,29 @@ section {
     border: 2px solid black;
 }
 
+.flex-item:first-child {
+    width: 100%;
+    min-height: 300px;
+} 
+
 .run-buddy {
-    background-image: ./assets/images/#;
+    background-image: url("../images/laptop.jpg");
 }
 
 .placeholder-1 {
-    background-image: url("./assets/images/laptop.jpg");
+    background-image: url("../images/laptop.jpg");
 }
 
 .placeholder-2 {
-    background-image: url("./assets/images/books.jpg");
+    background-image: url("../images/books.jpg");
 }
 
 .placeholder-3 {
-    background-image: url("./assets/images/books.jpg");
+    background-image: url("../images/books.jpg");
 }
 
 .placeholder-4 {
-    background-image: url("./assets/images/books.jpg");
+    background-image: url("../images/books.jpg");
 }
 /* end "My Work" styles */
 
@@ -179,19 +186,20 @@ section {
 
 }
 
-.contact-info ul {
+.contact-info {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     list-style: none;
+    flex-grow: 1;
 }
 
-.contact-info ul li {
+.contact-info li {
     margin: auto 50px;
 }
 /*edit font style here */
-.contact-info ul li a {
+.contact-info li a {
 
 }
 /* end "Contact Me" styles */
