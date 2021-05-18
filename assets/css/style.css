@@ -211,6 +211,19 @@ background-color: var(--primary-color);
 }
 
 .contact-info a {
-    margin: auto 50px;
+    margin: auto 35px;
+    font-size: 20px;
+    text-decoration: none;
+    font-style: normal;
+    color: black;
+    transition: 0.3s;
+}
+
+.contact-info a:hover {
+    color: var(--primary-color);
+    font-size: 21px;
+    transition: 0.3s;
+    font-weight: bold;
+    text-shadow: 4px 4px 4px var(--tertiary-color);
 }
 /* end "Contact Me" styles */
