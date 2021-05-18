@@ -6,14 +6,14 @@
 
 :root {
     --primary-color: #8B008B;
-    --secondary-color: #FAEBD7;
-    --tertiary-color: #9b8bfa;
+    --secondary-color: #f9f3fc;
+    --tertiary-color: #021C67;
     --dark: rgb(27, 16, 25);
 }
 
 body {
     color: var(--dark);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Didact Gothic', sans-serif;
 }
 
 /* Navigation */
@@ -29,8 +29,6 @@ header {
 header h1 {
     font-weight: lighter;
     font-size: 60px;
-    color: var(--secondary-color);
-    
     margin: 0;
     text-shadow: 0 0 15px var(--secondary-color);
     font-family: 'Montserrat Subrayada', sans-serif;
@@ -60,6 +58,13 @@ header nav ul li a {
     text-shadow: 0 0 15px var(--secondary-color);
     font-family: 'Carrois Gothic SC', sans-serif;
     font-weight: bold;
+    transition: 0.3s;
+}
+
+header nav ul li a:hover {
+    transition: 0.3s;
+    text-decoration: underline;
+    font-size: 2vw;
 }
 /* end Navigation styles */
 
@@ -138,12 +143,12 @@ section {
     line-height: 1.5;
     letter-spacing: 1.3px;
     font-family: 'Carrois Gothic SC', sans-serif;
+    color: var(--tertiary-color);
 }
 
 .about-me-text p {
     font-size: 20px;
     line-height: 1.5;
-    font-family: 'Didact Gothic', sans-serif;
 }
 /* end "About Me" styles */
 
@@ -196,10 +201,6 @@ background-color: var(--primary-color);
     font-family: 'Carrois Gothic SC', sans-serif;
 }
 
-.flex-item span {
-    font-family: font-family: 'Didact Gothic', sans-serif;
-}
-
 .just-kitten-around {
     background-image: url("../images/just-kitten-around.png");
 }
@@ -238,7 +239,6 @@ background-color: var(--primary-color);
     font-style: normal;
     color: black;
     transition: 0.3s;
-    font-family: 'Didact Gothic', sans-serif;
 }
 
 .contact-info a:hover {
@@ -246,6 +246,6 @@ background-color: var(--primary-color);
     font-size: 22px;
     transition: 0.3s;
     font-weight: bold;
-    text-shadow: 4px 4px 4px var(--tertiary-color);
+    text-shadow: 4px 4px 4px #a582d4;
 }
 /* end "Contact Me" styles */
