@@ -168,8 +168,9 @@ section {
     min-height: 300px;
 } 
 
-.flex-item div {
-
+.flex-container div {
+padding: 8px 10px;
+background-color: var(--primary-color);
 }
 
 .flex-item h4 {
