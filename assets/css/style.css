@@ -161,6 +161,8 @@ section {
     min-height: 175px;
     max-height: 175px;
     border: 2px solid black;
+    opacity: 85%;
+    transition: 0.3s;
 }
 
 .flex-item:first-child {
@@ -175,16 +177,23 @@ width: 150px;
 background-color: var(--primary-color);
 }
 
+.flex-container a:hover {
+    opacity: 1;
+    transition: 0.3s;
+}
+
+
+
 .flex-item h4, span {
     color: white;
 }
 
-.run-buddy {
-    background-image: url("../images/laptop.jpg");
+.just-kitten-around {
+    background-image: url("../images/just-kitten-around.png");
 }
 
 .placeholder-1 {
-    background-image: url("../images/laptop.jpg");
+    background-image: url("../images/run-buddy.png");
 }
 
 .placeholder-2 {
@@ -192,11 +201,11 @@ background-color: var(--primary-color);
 }
 
 .placeholder-3 {
-    background-image: url("../images/books.jpg");
+    background-image: url("../images/code.jpg");
 }
 
 .placeholder-4 {
-    background-image: url("../images/books.jpg");
+    background-image: url("../images/laptop.jpg");
 }
 /* end "My Work" styles */
 
