@@ -82,6 +82,31 @@ section {
     margin-right: auto;
     max-width: 75%;
 }
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+    margin: 30px 0;
+    padding: 15px 0;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.section > div {
+    flex: 0 0 70%;
+}
+
+.section h2 {
+    font-size: 45px;
+    color: var(--primary-color);
+    letter-spacing: 3px;
+    border-right: 5px solid var(--tertiary-color);
+    padding-right: 25px;
+    text-align: right;
+    flex: 0 0 20%;
+}
 /* end layout styles */
 
 /* About Me"" section */
@@ -92,12 +117,16 @@ section {
 }
 
 .about-me-img {
-    flex: 1 20%;
-    margin: auto 50px;
+    flex: 1 25%;
+    margin-left: 1.25%;
 }
 
 .about-me-text {
     flex: 12;
+}
+
+.about-me-text h3, p {
+    margin-right: 1.25%;
 }
 
 .about-me-text h3 {
@@ -113,27 +142,6 @@ section {
 /* end "About Me" styles */
 
 /* "My Work" section */
-.section {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: stretch;
-    justify-content: space-between;
-    margin: 30px 0;
-    padding: 15px 0;
-    flex-direction: row;
-    align-items: stretch;
-}
-
-.section h2 {
-    font-size: 45px;
-    color: var(--primary-color);
-    letter-spacing: 3px;
-    border-right: 5px solid var(--tertiary-color);
-    padding-right: 25px;
-    text-align: right;
-    flex: 0 0 20%;
-}
-
 .flex-container {
     display: flex;
     flex-wrap: wrap;
@@ -159,6 +167,14 @@ section {
     width: 100%;
     min-height: 300px;
 } 
+
+.flex-item div {
+
+}
+
+.flex-item h4 {
+    
+}
 
 .run-buddy {
     background-image: url("../images/laptop.jpg");
