@@ -28,7 +28,7 @@ header {
 
 header h1 {
     font-weight: lighter;
-    font-size: 55px;
+    font-size: 60px;
     color: var(--secondary-color);
     
     margin: 0;
@@ -58,7 +58,8 @@ header nav ul li a {
     font-size: 1.75vw;
     letter-spacing: 3px;
     text-shadow: 0 0 15px var(--secondary-color);
-    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    font-weight: bold;
 }
 /* end Navigation styles */
 
@@ -108,7 +109,7 @@ section {
     padding-right: 25px;
     text-align: right;
     flex: 0 0 20%;
-    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Carrois Gothic SC', sans-serif;
 }
 /* end layout styles */
 
@@ -136,13 +137,13 @@ section {
     font-size: 25px;
     line-height: 1.5;
     letter-spacing: 1.3px;
-    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Carrois Gothic SC', sans-serif;
 }
 
 .about-me-text p {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.5;
-    font-family: 'Sulphur Point', sans-serif;
+    font-family: 'Didact Gothic', sans-serif;
 }
 /* end "About Me" styles */
 
@@ -192,11 +193,11 @@ background-color: var(--primary-color);
 }
 
 .flex-item h4 {
-    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Carrois Gothic SC', sans-serif;
 }
 
 .flex-item span {
-    font-family: 'Sulphur Point', sans-serif;
+    font-family: font-family: 'Didact Gothic', sans-serif;
 }
 
 .just-kitten-around {
@@ -232,17 +233,17 @@ background-color: var(--primary-color);
 
 .contact-info a {
     margin: auto 35px;
-    font-size: 22px;
+    font-size: 21px;
     text-decoration: none;
     font-style: normal;
     color: black;
     transition: 0.3s;
-    font-family: 'Sulphur Point', sans-serif;
+    font-family: 'Didact Gothic', sans-serif;
 }
 
 .contact-info a:hover {
     color: var(--primary-color);
-    font-size: 23px;
+    font-size: 22px;
     transition: 0.3s;
     font-weight: bold;
     text-shadow: 4px 4px 4px var(--tertiary-color);
